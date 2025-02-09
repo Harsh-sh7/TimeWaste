@@ -1,4 +1,4 @@
-# 🍎 Eat The Fruit 🍌  
+# 🍎 Waste Your Time 🍌  
 
 "Eat The Fruit" is a **fun, interactive game** where players click on randomly appearing fruits to score points! The faster you play, the more fruits appear! Can you keep up? 🚀  
 
