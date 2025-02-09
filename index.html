@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Eat The Fruit</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Eat The Fruit</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>What is your "favorite" fruit?</h1>
+      <ul class="fruits-list">
+        <li>
+          <button class="choose-fruit-btn">
+            <p>Apple</p>
+            <img src="https://pngimg.com/uploads/apple/apple_PNG12440.png" alt="apple">
+          </button>
+        </li>
+        <li>
+          <button class="choose-fruit-btn">
+            <p>Banana</p>
+            <img
+               src="https://pngimg.com/uploads/banana/banana_PNG104243.png"
+               alt="banana"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-fruit-btn">
+            <p>Orange</p>
+            <img
+               src="https://pngimg.com/uploads/orange/orange_PNG803.png"
+               alt="orange"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-fruit-btn">
+            <p>Pineapple</p>
+            <img
+               src="https://pngimg.com/uploads/pineapple/pineapple_PNG2758.png"
+               alt="pineapple"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time Wasted: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Too much extra time? <br>
+        Vanish each fruit!!
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
